@@ -1,0 +1,24 @@
+#contenidoTodosMisServicios{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.subItem{
+	text-align: center;
+}
+
+.tabla {
+	border-collapse: collapse;
+	border: 2px solid #dddddd;
+	text-align: center;
+	width: 100%
+}
+
+.tabla th{
+	background-color: #879e81;
+	border: 2px solid #dddddd;
+}
+
+.tabla tr,td{
+	border: 2px solid #dddddd;
+}

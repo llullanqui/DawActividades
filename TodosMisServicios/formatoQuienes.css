@@ -1,0 +1,8 @@
+.contenidoDerecha{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.subItem{
+	align-self: center;
+}

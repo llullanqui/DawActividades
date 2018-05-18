@@ -1,0 +1,26 @@
+ul#menu li{
+	display: inline;
+	padding: 8%;
+}
+
+.contenidoIzquierda {
+	grid-area: izquierda;
+	text-align: center;
+}
+
+.contenidoDerecha {
+	grid-area: contenido;
+}
+
+.pieDePagina {
+	grid-area: pie;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas: 
+		'izquierda contenido contenido contenido contenido contenido contenido'
+		'pie pie pie pie pie pie pie';
+	grid-gap: 10px;
+	padding: 10px;
+}
