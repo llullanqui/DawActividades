@@ -1,4 +1,8 @@
-.contenidoDerecha{
+.contenidoDerecha h2{
+	text-align: center;
+}
+
+.gridDerecha{
 	display: grid;
 	grid-template-columns: auto auto;
 }
