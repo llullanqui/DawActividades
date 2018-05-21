@@ -28,3 +28,7 @@ span.bombo {
 	color: orange;
 }
 
+div#cabecera {
+	background-image: url("http://es.fifa.com//assets/img/tournaments/17/2018/common/fwc_darkbluebg.png");
+	height: 100px;
+}
