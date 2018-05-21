@@ -1,0 +1,30 @@
+
+* {
+	font-family: Verdana;
+}
+
+/*
+Estas etiquetas comparten las mismas propiedades.
+Cualquier otra etiqueta h2 tendrá las mismas características
+*/
+h1, h2 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+p#Rusia,p#iran {
+	border: 1px dotted black;
+}
+
+p {
+	text-align: right;
+	color: blue;
+}
+
+span.bombo {
+	text-decoration: underline;
+	font-weight: bold;
+	color: orange;
+}
+
