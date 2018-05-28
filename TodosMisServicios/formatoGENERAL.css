@@ -25,3 +25,16 @@ h1,h2 {
 .contenidoIzquierda {
 	border: 2px solid #000000;
 }
+
+.contenidoDerecha >*{
+	margin: 20px
+}
+
+.contenidoDerecha >* >*{
+	margin: 20px
+}
+
+.imagen {
+	border: 2px dashed #000000;
+	box-shadow: 5px 5px #888888;
+}
