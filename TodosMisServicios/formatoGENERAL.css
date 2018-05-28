@@ -2,29 +2,26 @@ h1,h2 {
 	text-align: center;
 }
 
-ul#menu li{
+#menu li {
 	display: inline;
-	padding: 8%;
-}
-
-.contenidoIzquierda {
-	grid-area: izquierda;
-	text-align: center;
-}
-
-.contenidoDerecha {
-	grid-area: contenido;
-}
-
-.pieDePagina {
-	grid-area: pie;
+	border: 2px solid #000000;
+	padding-right: 5%;
+	padding-left: 5%;
 }
 
 .grid-container {
 	display: grid;
-	grid-template-areas: 
-		'izquierda contenido contenido contenido contenido contenido contenido'
-		'pie pie pie pie pie pie pie';
+	grid-template-columns: 20% 80%;
 	grid-gap: 10px;
 	padding: 10px;
+	text-align: center;
+
+}
+
+.contenidoIzquierda > *{
+	width: 95%;
+}
+
+.contenidoIzquierda {
+	border: 2px solid #000000;
 }
