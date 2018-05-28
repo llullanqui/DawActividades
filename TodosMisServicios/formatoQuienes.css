@@ -10,3 +10,8 @@
 .subItem{
 	align-self: center;
 }
+
+.imagen:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
