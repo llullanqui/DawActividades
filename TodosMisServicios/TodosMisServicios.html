@@ -6,16 +6,26 @@
 		<meta name="keywords" content="servicios">
 		<link rel="stylesheet" type="text/css" href="formatoGENERAL.css">
 		<link rel="stylesheet" type="text/css" href="formatotodos.css">
+		<!-- calendario 
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	    <link rel="stylesheet" href="/resources/demos/style.css">
+	    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	    <script>
+	    $( function() {
+	      $( "#datepicker" ).datepicker();
+	    } );
+	    </script>-->
 	</head>
 	<body>
 		<header>
-			<h1>TodosMisServicios.ec</h1>
+			<h1 id="cabecera">TodosMisServicios.ec</h1>
 		</header>
-		<ul id="menu">
-			<li>Principal</li>
-			<li><a href="quienessomos.html">¿Quiénes somos?</a></li>
-			<li><a href="personal.html">Personal</a></li>
-			<li><a href="encuentranos.html">Encuéntranos</a></li>
+		<ul id="opciones"> 
+			<li id="pos"><a class="active" href="#home">Principal</a></li>
+			<li id="pos"><a href="quienessomos.html">¿Quiénes somos?</a></li>
+			<li id="pos"><a href="personal.html">Personal</a></li>
+			<li id="pos"><a href="encuentranos.html">Encuéntranos</a></li>
 		</ul>
 		<div class="grid-container">
 			<div class="contenidoIzquierda">
@@ -49,15 +59,17 @@
 						</table>
 					</div>
 					<div class="subItem">
-						<h3>Espacio en construccion</h3>
+						<p>Fechas importantes<br> <input type="text" id="datepicker"></p>
 					</div>
 				</div>
 				
 			</div>
-			<div class="pieDePagina">
-				<h2>Este es el pie de pagina</h2>
-			</div>
+			
 		</div>
-		
+		<footer>
+			<p>© El contenido de esta obra es de propiedad intelectual de nuestro grupo. 
+			Todos los derechos reservados. Prohibida su reproduccion total, parcial, 
+			comunicacion publica o distribucion sin autorizacion previa del titular de los derechos.</p>
+		</footer>
 	</body>
 </html>

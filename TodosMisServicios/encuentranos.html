@@ -8,13 +8,13 @@
 	</head>
 	<body>
 		<header>
-			<h1>TodosMisServicios.ec</h1>
+			<h1 id="cabecera">TodosMisServicios.ec</h1>
 		</header>
-		<ul id="menu">
-			<li><a href="TodosMisServicios.html">Principal</a></li>
-			<li><a href="quienessomos.html">¿Quiénes somos?</a></li>
-			<li><a href="personal.html">Personal</a></li>
-			<li>Encuéntranos</li>
+		<ul id="opciones">
+			<li id="pos"><a href="TodosMisServicios.html">Principal</a></li>
+			<li id="pos"><a href="quienessomos.html">¿Quiénes somos?</a></li>
+			<li id="pos"><a href="personal.html">Personal</a></li>
+			<li id="pos"><a class="active" href="#home">Encuéntranos</a></li>
 		</ul>
 		<div class="grid-container">
 			<div class="contenidoIzquierda">
@@ -22,40 +22,33 @@
 				<iframe src="https://www.youtube.com/embed/ZBCcuk1DNck" allowfullscreen></iframe>
 				<a class="twitter-timeline" data-height="400" data-width="100%" data-chrome="nofooter" href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js"></script>
 			</div>
-			<div class="contenidoDerecha">
+			<div class="formulario">
 				<h2>Envia tu opinion</h2>
-				<table>
-					<tr>
-						<td>Nombres completos</td>
-						<td><input name="nombres" type="text" size="100" placeholder="Ingrese aqui sus nombres"></td>
-					</tr>
-					<tr>
-						<td>Correo Electronico</td>
-						<td><input name="correo" type="email" size="100" placeholder="Ingrese aqui su email"></td>
-					</tr>
-					<tr>
-						<td>Edad</td>
-						<td><input name="edad" type="number" size="100" step="1" min="0" max="100"></td>
-					</tr>
-					<tr>
-						<td>Ciudad</td>
-						<td>
-							<select>
-								<option value="Guayaquil">Guayaquil</option>
-								<option value="Duran">Duran</option>
-								<option value="Daule">Daule</option>
-							</select>
-						</td>
-					</tr>
-				</table>
-				Comentarios<br>
-				<input name="nombres" type="text" size="100" placeholder="Ingrese aqui sus comentarios"><br>
-				<button>ENVIAR</button>
-			</div>
-			<div class="pieDePagina">
-				<h2>Este es el pie de pagina</h2>
+				<p>Nombres Completos: <input type="text" name="nombres" placeholder="Ingrese aqui sus nombres" /></p>
+						<p>Correo Electronico: <input type="text" name="correo" placeholder="Ingrese aqui su correo electronico" /></p>
+						<p>Utilidad del sitio: <input type="radio" name="util" value="Nada"> Nada  
+							<input type="radio" name="util" value="Poco"> Poco             
+							<input type="radio" name="util" value="Algo"> Algo                
+							<input type="radio" name="util" value="Muy"> Muy                
+							<input type="radio" name="util" value="Completamente">Completamente</p>
+						<p>Edad: <input type="number" name="edad" value="18"  size="150" step="1" min="0" max="150"></p>
+						<p>Provincia:   
+							<select name="provincia" size=1>
+								<option value="Guayas">Guayas</option>
+								<option value="Manabi">Manabi</option>
+								<option value="Los Rios">Los Rios</option>
+								<option value="Los Rios">Pichincha</option>
+								<option value="Los Rios">Azuay</option>
+							</select></p>
+						<p>Comentarios: <br><textarea  placeholder="Ingrese aqui sus comentarios"></textarea></p>
+						<p><input type="checkbox" name="suscribirme" value="gusta"> Deseo suscribirme para recibir noticias</p>
+						<p><button type="submit">Enviar</button></p>  
 			</div>
 		</div>
-
+		<footer>
+			<p>© El contenido de esta obra es de propiedad intelectual de nuestro grupo. 
+			Todos los derechos reservados. Prohibida su reproduccion total, parcial, 
+			comunicacion publica o distribucion sin autorizacion previa del titular de los derechos.</p>
+		</footer>
 	</body>
 </html>
