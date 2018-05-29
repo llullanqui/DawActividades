@@ -57,6 +57,9 @@ li a:hover {
 	border: 2px solid #000000;
 }
 
+.contenidoDerecha {
+	height: 2000px;
+}
 .contenidoDerecha >*{
 	margin: 20px
 }
@@ -72,22 +75,27 @@ li a:hover {
 .formulario{
 	text-align: left;
 }
-.contenidoDerecha #sri,#Pensiones,#Cable,#Telefonia{
+
+ul#serviciosRegistrados>li:hover{
+	background-color: #dddddd;
+}
+
+#sri,#Pensiones,#Cable,#Telefonia{
 	display: none;
 }
 
-#serviciosRegistrados #menuSri:hover #sri{
+li[id="menuSri"]:hover #sri{
 	display: block;
 }
 
-#serviciosRegistrados #menuPensiones:hover #Pensiones{
+li[id="menuTelefonia"]:hover #Telefonia{
 	display: block;
 }
 
-#serviciosRegistrados #menuTelefonia:hover #Telefonia{
+li[id="menuCable"]:hover #Cable{
 	display: block;
 }
 
-#serviciosRegistrados #menuSri:hover #sri{
+li[id="menuPensiones"]:hover #Pensiones{
 	display: block;
 }
