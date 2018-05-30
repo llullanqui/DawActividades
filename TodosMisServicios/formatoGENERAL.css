@@ -18,6 +18,7 @@ ul#opciones {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    border: 2px solid rgb(200,0,0);
 }
 
 li#pos{
@@ -38,6 +39,7 @@ li a:hover {
 
 .active {
     background-color: #4CAF50;
+    font-weight: bolder;
 }
 
 .grid-container {
@@ -58,7 +60,7 @@ li a:hover {
 }
 
 .contenidoDerecha {
-	height: 2000px;
+	height: 100%;
 }
 .contenidoDerecha >*{
 	margin: 20px
@@ -78,6 +80,7 @@ li a:hover {
 
 ul#serviciosRegistrados>li:hover{
 	background-color: #dddddd;
+	cursor: help;
 }
 
 #sri,#Pensiones,#Cable,#Telefonia{
@@ -99,3 +102,19 @@ li[id="menuCable"]:hover #Cable{
 li[id="menuPensiones"]:hover #Pensiones{
 	display: block;
 }
+
+footer {
+	border: 2px dotted #000000;
+	display: flex;
+}
+
+footer #copyrightFooter{
+	font-size: 5em;
+	text-align: center;
+}
+
+footer #contFooter{
+	font-size: 1em;
+	text-align: justify;
+}
+

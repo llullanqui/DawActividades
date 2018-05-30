@@ -1,0 +1,24 @@
+body {
+	text-align: center;
+	font-size: 15px;
+}
+
+img {
+	display: none;
+}
+
+.card :nth-child(5){
+	display: none;
+}
+
+.card p::first-letter{
+	text-transform: capitalize;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.card {
+	display: inline-block;
+	width: 25%;
+	height: 25%;
+}	
